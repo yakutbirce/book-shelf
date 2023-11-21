@@ -21,7 +21,6 @@ const SignupForm = () => {
             address: Yup.string().min(10, 'Adres en az 10 karakter olmalı').max(50, 'Adres en fazla 50 karakter olmalı'),
         }),
         onSubmit: (values) => {
-            // Kayıt işlemini burada gerçekleştirebilirsiniz.
             console.log('Kayıt Başarılı!', values);
         },
     });
