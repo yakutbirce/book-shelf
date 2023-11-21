@@ -14,7 +14,6 @@ const LoginForm = () => {
             password: Yup.string().required('Şifre zorunludur'),
         }),
         onSubmit: (values) => {
-            // Giriş işlemini burada gerçekleştirebilirsiniz.
             console.log('Giriş Başarılı!', values);
         },
     });
